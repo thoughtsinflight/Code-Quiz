@@ -1,0 +1,11 @@
+-First create a html with a header that holds "View Highscores", a modal that will store the scores and names of the score holders
+ - and a timer that keeps track of the time
+ - a content within that page that will take info from question index and fill out the content of the page (i.e. header with a list)
+- a function that will move the user to the new info, substract if the answer is wrong and calculate the score at the end
+- need a var that will keep track of where we are in the question object
+- need a timeInterval that can be manipulated by right or wrong answers
+- needs to end with a endput field that will stores the score and users name into the highscore modal.
+- need to tell the user if they were right or wrong
+- a div get hidden, and a div get shown
+- seperate html for highscore
+- wrong answers deduct 15 sec from score, time = score

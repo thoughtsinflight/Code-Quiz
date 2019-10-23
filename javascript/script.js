@@ -24,9 +24,13 @@ function nextQuestion (){
     questionEl.style.display ="block"
 
     questions.forEach(function(){
-        questionEl.innerHTML = "<h4>" + questions[1].title + "</h4>";
-        btnOne.innerHTML = "<button>" + questions[1].choices[1] + "</button>"
-
+        questionEl.innerHTML = "<h4>" + questions[0].title + "</h4><br>";
+        // questions.choice.forEach(function(choice){
+        //     var newBtn = document.innerHTML
+        //     newBtn.innerHTML = choice
+        // })
+        // btnOne.innerHTML = "<button>" + questions[0].choices[0] + "</button>";        
+        //--for each index in the choice array, make a button
     })
 
 }

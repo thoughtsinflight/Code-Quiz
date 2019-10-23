@@ -16,31 +16,31 @@
 <body>
   <div class="row">
     <div class="col-10">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                View Highscore
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        View Highscore
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Highscores:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
               </button>
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Highscores:</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--The Timer-->
     <div class="col-2 text-right px-5">
@@ -59,14 +59,15 @@
         </div>
         <!--Question Content-->
         <div class="questionblock" id="question">
-            <h1 class="question"></h1>
-            <ul>
-              <li id="btn1"></li>
-              <li id="btn2"></li>
-              <li id="btn3"></li>
-              <li id="btn4"></li>
-            </ul><br>
-            <hr><p id="rightwrong"></p>
+          <h1 class="question"></h1>
+          <ul id="makebtn">
+            <li id="btn1"></li>
+            <li id="btn2"></li>
+            <li id="btn3"></li>
+            <li id="btn4"></li>
+          </ul><br>
+          <hr>
+          <p id="rightwrong"></p>
         </div>
       </div>
     </div>
@@ -75,8 +76,8 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="./javasscript/questions.js"></script>
-  <script src="./javasscript/script.js"></script>
+  <script src="./javascript/questions.js"></script>
+  <script src="./javascript/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
